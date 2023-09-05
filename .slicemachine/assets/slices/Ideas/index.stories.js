@@ -1,0 +1,18 @@
+import MyComponent from '../../../../slices/Ideas';
+
+export default {
+  title: 'slices/Ideas'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"subtittle":[{"type":"heading1","text":"Shaking","spans":[]}],"tittle":[{"type":"heading1","text":"Raise","spans":[]}],"buttontext":"run","buttonlink":{"link_type":"Web","url":"https://slicemachine.dev"},"bgcolorInitial":"#5bea7a","bgcolorend":"#70153f"},"slice_type":"ideas","id":"_Default"}} />
+_Default.storyName = ''
+
+export const _NoButtonNobg = () => <MyComponent slice={{"variation":"noButtonNobg","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"subtittle":[{"type":"paragraph","text":"Dolore mollit esse cupidatat et. Proident reprehenderit ullamco et ullamco amet qui ad in.","spans":[]}],"tittle":[{"type":"paragraph","text":"Tempor laboris quis minim et eu eiusmod enim ex voluptate nostrud aliqua sit velit nulla.","spans":[]}]},"slice_type":"ideas","id":"_NoButtonNobg"}} />
+_NoButtonNobg.storyName = ''
+
+export const _NoButton = () => <MyComponent slice={{"variation":"noButton","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"subtittle":[{"type":"paragraph","text":"Sint proident voluptate sit anim quis deserunt occaecat. Qui fugiat laboris labore consequat veniam nulla excepteur elit dolore minim nisi occaecat. Do consectetur fugiat eu nulla non consectetur pariatur officia culpa ipsum cupidatat ex dolor adipisicing tempor.","spans":[]}],"tittle":[{"type":"paragraph","text":"Reprehenderit aliqua ad enim laborum aute duis Lorem minim sit commodo. Ut Lorem tempor velit. Sint nostrud anim exercitation sint exercitation ea.","spans":[]}],"bgcolorInitial":"#5ea500","bgcolorend":"#30a80a"},"slice_type":"ideas","id":"_NoButton"}} />
+_NoButton.storyName = ''
+
+export const _Store = () => <MyComponent slice={{"variation":"store","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"subtittle":[{"type":"paragraph","text":"Et officia excepteur ex nisi veniam commodo dolore id Lorem eu.","spans":[]}],"tittle":[{"type":"paragraph","text":"Magna commodo dolore dolore amet officia commodo aliqua fugiat veniam labore.","spans":[]}],"android":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1498050108023-c5249f4df085"},"androidstore":{"link_type":"Web","url":"http://google.com"},"ios":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1537498425277-c283d32ef9db"},"iostore":{"link_type":"Web","url":"http://twitter.com"}},"slice_type":"ideas","id":"_Store"}} />
+_Store.storyName = ''

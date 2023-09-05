@@ -1,0 +1,18 @@
+import MyComponent from '../../../../slices/Services';
+
+export default {
+  title: 'slices/Services'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{"imagelist":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1547394765-185e1e68f34e"},"titlelist":"continent","descriptionlist":"close"}],"primary":{"title":[{"type":"heading2","text":"Syllable","spans":[]}],"description":[{"type":"paragraph","text":"Ea quis cillum ullamco occaecat voluptate in. Aute fugiat voluptate laboris sint Lorem in proident ad irure dolore exercitation culpa ut elit.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1587840171670-8b850147754e"},"buttontext":"this"},"slice_type":"services","id":"_Default"}} />
+_Default.storyName = ''
+
+export const _NoIconsNoButtons = () => <MyComponent slice={{"variation":"noIconsNoButtons","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"title":[{"type":"heading2","text":"Shout","spans":[]}],"description":[{"type":"paragraph","text":"Duis veniam dolor eu sit tempor ut tempor nostrud sunt esse fugiat quis ad cillum in. Cillum do proident laboris voluptate irure incididunt id Lorem.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1494173853739-c21f58b16055"}},"slice_type":"services","id":"_NoIconsNoButtons"}} />
+_NoIconsNoButtons.storyName = ''
+
+export const _NoIcons = () => <MyComponent slice={{"variation":"noIcons","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"title":[{"type":"heading2","text":"Frequently","spans":[]}],"description":[{"type":"paragraph","text":"Anim labore veniam sint.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1547082299-de196ea013d6"},"buttontext":"bottom"},"slice_type":"services","id":"_NoIcons"}} />
+_NoIcons.storyName = ''
+
+export const _ImageText = () => <MyComponent slice={{"variation":"imageText","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"title":[{"type":"heading2","text":"Depth","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1493119508027-2b584f234d6c"}},"slice_type":"services","id":"_ImageText"}} />
+_ImageText.storyName = ''

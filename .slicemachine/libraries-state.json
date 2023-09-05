@@ -1,0 +1,2160 @@
+{
+  "slices": {
+    "components": {
+      "card_list": {
+        "library": "slices",
+        "id": "card_list",
+        "name": "CardList",
+        "description": "CardList",
+        "model": {
+          "id": "card_list",
+          "type": "SharedSlice",
+          "name": "CardList",
+          "description": "CardList",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CardList",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading3,heading2,paragraph,preformatted,heading4,heading5,heading6,strong,em"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,strong,em,embed,rtl"
+                  }
+                }
+              },
+              "items": {
+                "cardTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "cardTitle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "heading3,heading4,heading5,heading6,em,strong"
+                  }
+                },
+                "cardDescription": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "cardDescription",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading5,heading6,strong,em,hyperlink"
+                  }
+                },
+                "cardImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "cardImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "cardTitle": [
+                  {
+                    "type": "heading3",
+                    "text": "Please",
+                    "spans": []
+                  }
+                ],
+                "cardDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Esse sunt eu dolor dolore culpa quis culpa cupidatat aute laboris fugiat ad ullamco anim. Sunt minim in tempor esse amet occaecat reprehenderit duis consectetur voluptate consequat minim incididunt excepteur.",
+                    "spans": []
+                  }
+                ],
+                "cardImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Irure reprehenderit ex aliquip.",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Culpa consectetur eu eu deserunt sunt fugiat voluptate dolore.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "card_list"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/CardList/default/preview.png",
+            "width": 2714,
+            "height": 1606
+          }
+        }
+      },
+      "clients": {
+        "library": "slices",
+        "id": "clients",
+        "name": "Comparative",
+        "description": "Clients",
+        "model": {
+          "id": "clients",
+          "type": "SharedSlice",
+          "name": "Comparative",
+          "description": "Clients",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Clients",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2,heading3"
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "description",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading3,heading4,heading5,strong,em"
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "description",
+                    "placeholder": ""
+                  }
+                },
+                "ico": {
+                  "type": "Image",
+                  "config": {
+                    "label": "ico1",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "description1": {
+                  "type": "Text",
+                  "config": {
+                    "label": "description1",
+                    "placeholder": ""
+                  }
+                },
+                "ico2": {
+                  "type": "Image",
+                  "config": {
+                    "label": "ico2",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "description2": {
+                  "type": "Text",
+                  "config": {
+                    "label": "description2",
+                    "placeholder": ""
+                  }
+                },
+                "ico3": {
+                  "type": "Image",
+                  "config": {
+                    "label": "ico3",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "description3": {
+                  "type": "Text",
+                  "config": {
+                    "label": "description3",
+                    "placeholder": ""
+                  }
+                },
+                "ico4": {
+                  "type": "Image",
+                  "config": {
+                    "label": "ico4",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "description4": {
+                  "type": "Text",
+                  "config": {
+                    "label": "description4",
+                    "placeholder": ""
+                  }
+                },
+                "ico5": {
+                  "type": "Image",
+                  "config": {
+                    "label": "ico5",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "description5": {
+                  "type": "Text",
+                  "config": {
+                    "label": "description5",
+                    "placeholder": ""
+                  }
+                },
+                "buttontext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "buttontext",
+                    "placeholder": ""
+                  }
+                },
+                "buttonlink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "buttonlink",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "title": [
+                  {
+                    "type": "heading3",
+                    "text": "State",
+                    "spans": []
+                  }
+                ],
+                "description": "slight",
+                "ico": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613"
+                },
+                "description1": "short",
+                "ico2": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea"
+                },
+                "description2": "putting",
+                "ico3": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b"
+                },
+                "description3": "choice",
+                "ico4": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db"
+                },
+                "description4": "forgot",
+                "ico5": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c"
+                },
+                "description5": "ride",
+                "buttontext": "thou",
+                "buttonlink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Screen",
+                  "spans": []
+                }
+              ],
+              "description": "already"
+            },
+            "slice_type": "clients"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Comparative/default/preview.png",
+            "width": 1059,
+            "height": 795
+          }
+        }
+      },
+      "contact": {
+        "library": "slices",
+        "id": "contact",
+        "name": "Contact",
+        "description": "Contact",
+        "model": {
+          "id": "contact",
+          "type": "SharedSlice",
+          "name": "Contact",
+          "description": "Contact",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Contact",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "subtitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "subtitle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "name": {
+                  "type": "Text",
+                  "config": {
+                    "label": "name",
+                    "placeholder": ""
+                  }
+                },
+                "email": {
+                  "type": "Text",
+                  "config": {
+                    "label": "email",
+                    "placeholder": ""
+                  }
+                },
+                "message": {
+                  "type": "Text",
+                  "config": {
+                    "label": "message",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Would",
+                  "spans": []
+                }
+              ],
+              "subtitle": [
+                {
+                  "type": "heading2",
+                  "text": "Center",
+                  "spans": []
+                }
+              ],
+              "name": "base",
+              "email": "rubbed",
+              "message": "hungry"
+            },
+            "slice_type": "contact"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Contact/default/preview.png",
+            "width": 1200,
+            "height": 1772
+          }
+        }
+      },
+      "hero": {
+        "library": "slices",
+        "id": "hero",
+        "name": "Hero",
+        "description": "Hero",
+        "model": {
+          "id": "hero",
+          "type": "SharedSlice",
+          "name": "Hero",
+          "description": "Hero",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "invertedlayout": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "invertedLayout",
+                    "default_value": false,
+                    "placeholder_true": "true",
+                    "placeholder_false": "false"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "buttontext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "buttonText",
+                    "placeholder": ""
+                  }
+                },
+                "buttonlink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "buttonLink",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "mobileimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "mobileImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "noButtonNoDescription",
+              "name": "noButtonNoDescription",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "invertedlayout": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "invertedLayout",
+                    "default_value": false,
+                    "placeholder_true": "true",
+                    "placeholder_false": "false"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "mobileimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "mobileImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "noButton",
+              "name": "noButton",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "invertedlayout": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "invertedLayout",
+                    "default_value": false,
+                    "placeholder_true": "true",
+                    "placeholder_false": "false"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "mobileimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "mobileImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "invertedlayout": true,
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da"
+              },
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Elit pariatur veniam consequat excepteur.",
+                  "spans": []
+                }
+              ],
+              "buttontext": "nor",
+              "buttonlink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "mobileimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+              },
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Officia Lorem ut incididunt et incididunt magna esse commodo quis proident dolore dolor occaecat pariatur. In aliquip nisi tempor.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "hero"
+          },
+          "noButtonNoDescription": {
+            "variation": "noButtonNoDescription",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "invertedlayout": true,
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6"
+              },
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Ut et culpa eu consequat nulla nisi laboris. Quis eiusmod proident dolor cillum exercitation est ea sint. Dolore aliquip quis irure qui.",
+                  "spans": []
+                }
+              ],
+              "mobileimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468"
+              }
+            },
+            "slice_type": "hero"
+          },
+          "noButton": {
+            "variation": "noButton",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "invertedlayout": true,
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b"
+              },
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Incididunt minim ut et minim.",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Adipisicing sint adipisicing sint minim.",
+                  "spans": []
+                }
+              ],
+              "mobileimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da"
+              }
+            },
+            "slice_type": "hero"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Hero/default/preview.png",
+            "width": 1562,
+            "height": 669
+          },
+          "noButtonNoDescription": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Hero/noButtonNoDescription/preview.png",
+            "width": 1562,
+            "height": 669
+          },
+          "noButton": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Hero/noButton/preview.png",
+            "width": 1562,
+            "height": 669
+          }
+        }
+      },
+      "ideas": {
+        "library": "slices",
+        "id": "ideas",
+        "name": "Ideas",
+        "description": "Ideas",
+        "model": {
+          "id": "ideas",
+          "type": "SharedSlice",
+          "name": "Ideas",
+          "description": "Ideas",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Ideas",
+              "primary": {
+                "subtittle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "subtittle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "tittle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "tittle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "buttontext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "buttonText",
+                    "placeholder": ""
+                  }
+                },
+                "buttonlink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "buttonLink",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "bgcolorInitial": {
+                  "type": "Color",
+                  "config": {
+                    "label": "bgColorInitial",
+                    "placeholder": ""
+                  }
+                },
+                "bgcolorend": {
+                  "type": "Color",
+                  "config": {
+                    "label": "bgColorEnd",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "noButtonNobg",
+              "name": "noButtonNobg",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Ideas",
+              "primary": {
+                "subtittle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "subtittle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "tittle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "tittle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "noButton",
+              "name": "noButton",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Ideas",
+              "primary": {
+                "subtittle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "subtittle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "tittle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "tittle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "bgcolorInitial": {
+                  "type": "Color",
+                  "config": {
+                    "label": "bgColorInitial",
+                    "placeholder": ""
+                  }
+                },
+                "bgcolorend": {
+                  "type": "Color",
+                  "config": {
+                    "label": "bgColorEnd",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "store",
+              "name": "store",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Ideas",
+              "primary": {
+                "subtittle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "subtittle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "tittle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "tittle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "android": {
+                  "type": "Image",
+                  "config": {
+                    "label": "android",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "androidstore": {
+                  "type": "Link",
+                  "config": {
+                    "label": "androidstore",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "ios": {
+                  "type": "Image",
+                  "config": {
+                    "label": "ios",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "iostore": {
+                  "type": "Link",
+                  "config": {
+                    "label": "iostore",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "subtittle": [
+                {
+                  "type": "heading1",
+                  "text": "Shaking",
+                  "spans": []
+                }
+              ],
+              "tittle": [
+                {
+                  "type": "heading1",
+                  "text": "Raise",
+                  "spans": []
+                }
+              ],
+              "buttontext": "run",
+              "buttonlink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "bgcolorInitial": "#5bea7a",
+              "bgcolorend": "#70153f"
+            },
+            "slice_type": "ideas"
+          },
+          "noButtonNobg": {
+            "variation": "noButtonNobg",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "subtittle": [
+                {
+                  "type": "paragraph",
+                  "text": "Dolore mollit esse cupidatat et. Proident reprehenderit ullamco et ullamco amet qui ad in.",
+                  "spans": []
+                }
+              ],
+              "tittle": [
+                {
+                  "type": "paragraph",
+                  "text": "Tempor laboris quis minim et eu eiusmod enim ex voluptate nostrud aliqua sit velit nulla.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "ideas"
+          },
+          "noButton": {
+            "variation": "noButton",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "subtittle": [
+                {
+                  "type": "paragraph",
+                  "text": "Sint proident voluptate sit anim quis deserunt occaecat. Qui fugiat laboris labore consequat veniam nulla excepteur elit dolore minim nisi occaecat. Do consectetur fugiat eu nulla non consectetur pariatur officia culpa ipsum cupidatat ex dolor adipisicing tempor.",
+                  "spans": []
+                }
+              ],
+              "tittle": [
+                {
+                  "type": "paragraph",
+                  "text": "Reprehenderit aliqua ad enim laborum aute duis Lorem minim sit commodo. Ut Lorem tempor velit. Sint nostrud anim exercitation sint exercitation ea.",
+                  "spans": []
+                }
+              ],
+              "bgcolorInitial": "#5ea500",
+              "bgcolorend": "#30a80a"
+            },
+            "slice_type": "ideas"
+          },
+          "store": {
+            "variation": "store",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "subtittle": [
+                {
+                  "type": "paragraph",
+                  "text": "Et officia excepteur ex nisi veniam commodo dolore id Lorem eu.",
+                  "spans": []
+                }
+              ],
+              "tittle": [
+                {
+                  "type": "paragraph",
+                  "text": "Magna commodo dolore dolore amet officia commodo aliqua fugiat veniam labore.",
+                  "spans": []
+                }
+              ],
+              "android": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+              },
+              "androidstore": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "ios": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db"
+              },
+              "iostore": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              }
+            },
+            "slice_type": "ideas"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Ideas/default/preview.png",
+            "width": 1398,
+            "height": 432
+          },
+          "noButtonNobg": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Ideas/noButtonNobg/preview.png",
+            "width": 1398,
+            "height": 432
+          },
+          "noButton": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Ideas/noButton/preview.png",
+            "width": 1398,
+            "height": 432
+          },
+          "store": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Ideas/store/preview.png",
+            "width": 1920,
+            "height": 474
+          }
+        }
+      },
+      "logo_list": {
+        "library": "slices",
+        "id": "logo_list",
+        "name": "LogoList",
+        "description": "LogoList",
+        "model": {
+          "id": "logo_list",
+          "type": "SharedSlice",
+          "name": "LogoList",
+          "description": "LogoList",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LogoList",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2,heading3"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                }
+              },
+              "items": {
+                "logoImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "logoImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "onlyLogosBg",
+              "name": "onlyLogosBg",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LogoList",
+              "primary": {},
+              "items": {
+                "logoImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "logoImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "buttonTitleDescription",
+              "name": "buttonTitleDescription",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LogoList",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {
+                "logoImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "logoImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "subtitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "subtitle",
+                    "placeholder": "Titulo ...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "description",
+                    "placeholder": "Descripción ..."
+                  }
+                },
+                "buttonlink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "buttonlink",
+                    "placeholder": "",
+                    "allowTargetBlank": false,
+                    "select": null
+                  }
+                },
+                "buttontext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "buttontext",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "logoImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Measure",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Cillum eu officia commodo cupidatat exercitation duis labore et. Dolor reprehenderit exercitation adipisicing do anim laboris nulla nulla dolore aliquip irure Lorem.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "logo_list"
+          },
+          "onlyLogosBg": {
+            "variation": "onlyLogosBg",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "logoImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a"
+                }
+              }
+            ],
+            "primary": {},
+            "slice_type": "logo_list"
+          },
+          "buttonTitleDescription": {
+            "variation": "buttonTitleDescription",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "logoImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613"
+                },
+                "subtitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ut dolore velit ea nulla laborum excepteur velit dolor.",
+                    "spans": []
+                  }
+                ],
+                "description": "pot",
+                "buttonlink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                },
+                "buttontext": "lead"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Dolore pariatur aliqua non qui nostrud sunt nisi.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "logo_list"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/LogoList/default/preview.png",
+            "width": 1133,
+            "height": 177
+          },
+          "onlyLogosBg": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/LogoList/onlyLogosBg/preview.png",
+            "width": 1133,
+            "height": 177
+          },
+          "buttonTitleDescription": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/LogoList/buttonTitleDescription/preview.png",
+            "width": 1820,
+            "height": 727
+          }
+        }
+      },
+      "metrics": {
+        "library": "slices",
+        "id": "metrics",
+        "name": "Metrics",
+        "description": "Metrics",
+        "model": {
+          "id": "metrics",
+          "type": "SharedSlice",
+          "name": "Metrics",
+          "description": "Metrics",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Metrics",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "items": {
+                "contenttext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "contentText",
+                    "placeholder": ""
+                  }
+                },
+                "subtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "subtitle",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "noBackground",
+              "name": "noBackground",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Metrics",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2"
+                  }
+                }
+              },
+              "items": {
+                "contenttext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "contentText",
+                    "placeholder": ""
+                  }
+                },
+                "subtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "subtitle",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "contenttext": "home",
+                "subtitle": "ranch"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Angle",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "metrics"
+          },
+          "noBackground": {
+            "variation": "noBackground",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "contenttext": "nice",
+                "subtitle": "eat"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Garage",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "metrics"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Metrics/default/preview.png",
+            "width": 1375,
+            "height": 486
+          },
+          "noBackground": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Metrics/noBackground/preview.png",
+            "width": 1166,
+            "height": 372
+          }
+        }
+      },
+      "projects": {
+        "library": "slices",
+        "id": "projects",
+        "name": "Projects",
+        "description": "Projects",
+        "model": {
+          "id": "projects",
+          "type": "SharedSlice",
+          "name": "Projects",
+          "description": "Projects",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Projects",
+              "primary": {
+                "imgswapp": {
+                  "type": "Image",
+                  "config": {
+                    "label": "imgSwapp",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "subtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "subtitle",
+                    "placeholder": ""
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "imgswapp": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"
+              },
+              "subtitle": "science",
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Tempor consectetur anim dolore nulla non voluptate fugiat in adipisicing. Ad ut mollit elit tempor quis consequat irure dolore irure culpa ipsum mollit.",
+                  "spans": []
+                }
+              ],
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Vowel",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "projects"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Projects/default/preview.png",
+            "width": 1127,
+            "height": 626
+          }
+        }
+      },
+      "services": {
+        "library": "slices",
+        "id": "services",
+        "name": "Services",
+        "description": "Services",
+        "model": {
+          "id": "services",
+          "type": "SharedSlice",
+          "name": "Services",
+          "description": "Services",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Services",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "buttontext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "buttontext",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "imagelist": {
+                  "type": "Image",
+                  "config": {
+                    "label": "imageList",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "titlelist": {
+                  "type": "Text",
+                  "config": {
+                    "label": "titleList",
+                    "placeholder": ""
+                  }
+                },
+                "descriptionlist": {
+                  "type": "Text",
+                  "config": {
+                    "label": "descriptionList",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "noIconsNoButtons",
+              "name": "noIconsNoButtons",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Services",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "noIcons",
+              "name": "noIcons",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Services",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "buttontext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "buttontext",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "imageText",
+              "name": "imageText",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Services",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "imagelist": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e"
+                },
+                "titlelist": "continent",
+                "descriptionlist": "close"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Syllable",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Ea quis cillum ullamco occaecat voluptate in. Aute fugiat voluptate laboris sint Lorem in proident ad irure dolore exercitation culpa ut elit.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e"
+              },
+              "buttontext": "this"
+            },
+            "slice_type": "services"
+          },
+          "noIconsNoButtons": {
+            "variation": "noIconsNoButtons",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Shout",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Duis veniam dolor eu sit tempor ut tempor nostrud sunt esse fugiat quis ad cillum in. Cillum do proident laboris voluptate irure incididunt id Lorem.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055"
+              }
+            },
+            "slice_type": "services"
+          },
+          "noIcons": {
+            "variation": "noIcons",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Frequently",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Anim labore veniam sint.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6"
+              },
+              "buttontext": "bottom"
+            },
+            "slice_type": "services"
+          },
+          "imageText": {
+            "variation": "imageText",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Depth",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c"
+              }
+            },
+            "slice_type": "services"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Services/default/preview.png",
+            "width": 1194,
+            "height": 656
+          },
+          "noIconsNoButtons": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Services/noIconsNoButtons/preview.png",
+            "width": 1194,
+            "height": 656
+          },
+          "noIcons": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Services/noIcons/preview.png",
+            "width": 1194,
+            "height": 656
+          },
+          "imageText": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Services/imageText/preview.png",
+            "width": 1194,
+            "height": 656
+          }
+        }
+      },
+      "staff": {
+        "library": "slices",
+        "id": "staff",
+        "name": "Staff",
+        "description": "Staff",
+        "model": {
+          "id": "staff",
+          "type": "SharedSlice",
+          "name": "Staff",
+          "description": "Staff",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Staff",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2,heading3,heading4,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "nametitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "nametitle",
+                    "placeholder": ""
+                  }
+                },
+                "positiontitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "positiontitle",
+                    "placeholder": ""
+                  }
+                },
+                "linkedinlogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "linkedinlogo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "profileurl": {
+                  "type": "Link",
+                  "config": {
+                    "label": "profileurl",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da"
+                },
+                "nametitle": "cheese",
+                "positiontitle": "underline",
+                "linkedinlogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef"
+                },
+                "profileurl": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Population",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "staff"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/manu/_CODE/HOLA-COMUNIDAD/_CODE/hola-public-sitev2/slices/Staff/default/preview.png",
+            "width": 1134,
+            "height": 1177
+          }
+        }
+      }
+    }
+  }
+}

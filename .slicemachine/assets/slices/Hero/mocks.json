@@ -1,0 +1,129 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "invertedlayout": true,
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Elit pariatur veniam consequat excepteur.",
+          "spans": []
+        }
+      ],
+      "buttontext": "nor",
+      "buttonlink": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "mobileimage": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+      },
+      "title": [
+        {
+          "type": "paragraph",
+          "text": "Officia Lorem ut incididunt et incididunt magna esse commodo quis proident dolore dolor occaecat pariatur. In aliquip nisi tempor.",
+          "spans": []
+        }
+      ]
+    },
+    "slice_type": "hero"
+  },
+  {
+    "variation": "noButtonNoDescription",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "invertedlayout": true,
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6"
+      },
+      "title": [
+        {
+          "type": "paragraph",
+          "text": "Ut et culpa eu consequat nulla nisi laboris. Quis eiusmod proident dolor cillum exercitation est ea sint. Dolore aliquip quis irure qui.",
+          "spans": []
+        }
+      ],
+      "mobileimage": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468"
+      }
+    },
+    "slice_type": "hero"
+  },
+  {
+    "variation": "noButton",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "invertedlayout": true,
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b"
+      },
+      "title": [
+        {
+          "type": "paragraph",
+          "text": "Incididunt minim ut et minim.",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Adipisicing sint adipisicing sint minim.",
+          "spans": []
+        }
+      ],
+      "mobileimage": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da"
+      }
+    },
+    "slice_type": "hero"
+  }
+]

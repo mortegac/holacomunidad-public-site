@@ -1,0 +1,64 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "footermenu",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "logo": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055"
+    },
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "Nulla do ex elit cillum consectetur adipisicing officia ut exercitation irure magna nisi sit cupidatat consectetur. Ex tempor adipisicing enim culpa laboris esse velit et laboris voluptate laborum culpa.",
+        "spans": []
+      }
+    ],
+    "textrights": [
+      {
+        "type": "paragraph",
+        "text": "Aliqua nisi labore cupidatat qui velit. Exercitation aliqua in culpa adipisicing aliquip laboris ad incididunt id.",
+        "spans": []
+      }
+    ],
+    "linkgroup": [
+      {
+        "label": "anybody",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      }
+    ],
+    "socialmediagroup": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764"
+        },
+        "imagelink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      }
+    ]
+  }
+}
