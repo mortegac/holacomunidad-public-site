@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "cl.holacomunidad.app",
+        "sha256_cert_fingerprints": [
+          "1B:C4:90:F1:82:AF:03:5A:C4:CD:AE:15:F6:16:EA:0D:0A:28:71:0A:F2:E5:9B:0F:7B:92:DF:60:E9:83:C9:05"
+        ]
+      }
+    }
+  ]
