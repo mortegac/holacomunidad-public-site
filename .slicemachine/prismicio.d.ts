@@ -311,7 +311,7 @@ interface PageDocumentData {
  * Slice for *page → Slice Zone*
  *
  */
-type PageDocumentDataSlicesSlice = HeroSlice | IdeasSlice | CardListSlice | LogoListSlice | MetricsSlice | ServicesSlice | ProjectsSlice | ClientsSlice | StaffSlice | ContactSlice;
+type PageDocumentDataSlicesSlice = HeroSlice | IdeasSlice | ContactSlice | HtmlSlice;
 /**
  * page document from Prismic
  *
@@ -904,6 +904,55 @@ type HeroSliceVariation = HeroSliceDefault | HeroSliceNoButtonNoDescription | He
  *
  */
 export type HeroSlice = prismicT.SharedSlice<"hero", HeroSliceVariation>;
+/**
+ * Primary content in Html → Primary
+ *
+ */
+interface HtmlSliceDefaultPrimary {
+    /**
+     * Title field in *Html → Primary*
+     *
+     * - **Field Type**: Title
+     * - **Placeholder**: This is where it all begins...
+     * - **API ID Path**: html.primary.title
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    title: prismicT.TitleField;
+    /**
+     * html field in *Html → Primary*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: html.primary.html
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    html: prismicT.KeyTextField;
+}
+/**
+ * Default variation for Html Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Html`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type HtmlSliceDefault = prismicT.SharedSliceVariation<"default", Simplify<HtmlSliceDefaultPrimary>, never>;
+/**
+ * Slice variation for *Html*
+ *
+ */
+type HtmlSliceVariation = HtmlSliceDefault;
+/**
+ * Html Shared Slice
+ *
+ * - **API ID**: `html`
+ * - **Description**: `Html`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type HtmlSlice = prismicT.SharedSlice<"html", HtmlSliceVariation>;
 /**
  * Primary content in Ideas → Primary
  *
@@ -1854,6 +1903,6 @@ declare module "@prismicio/client" {
         (repositoryNameOrEndpoint: string, options?: prismic.ClientConfig): prismic.Client<AllDocumentTypes>;
     }
     namespace Content {
-        export type { FootermenuDocumentData, FootermenuDocumentDataLinkgroupItem, FootermenuDocumentDataSocialmediagroupItem, FootermenuDocument, HomepageDocumentData, HomepageDocumentDataSlicesSlice, HomepageDocument, MenutopDocumentData, MenutopDocumentDataMenulinksItem, MenutopDocument, PageDocumentData, PageDocumentDataSlicesSlice, PageDocument, AllDocumentTypes, CardListSliceDefaultPrimary, CardListSliceDefaultItem, CardListSliceDefault, CardListSliceVariation, CardListSlice, ClientsSliceDefaultPrimary, ClientsSliceDefaultItem, ClientsSliceDefault, ClientsSliceVariation, ClientsSlice, ContactSliceDefaultPrimary, ContactSliceDefault, ContactSliceVariation, ContactSlice, HeroSliceDefaultPrimary, HeroSliceDefault, HeroSliceNoButtonNoDescriptionPrimary, HeroSliceNoButtonNoDescription, HeroSliceNoButtonPrimary, HeroSliceNoButton, HeroSliceVariation, HeroSlice, IdeasSliceDefaultPrimary, IdeasSliceDefault, IdeasSliceNoButtonNobgPrimary, IdeasSliceNoButtonNobg, IdeasSliceNoButtonPrimary, IdeasSliceNoButton, IdeasSliceStorePrimary, IdeasSliceStore, IdeasSliceVariation, IdeasSlice, LogoListSliceDefaultPrimary, LogoListSliceDefaultItem, LogoListSliceDefault, LogoListSliceOnlyLogosBgItem, LogoListSliceOnlyLogosBg, LogoListSliceButtonTitleDescriptionPrimary, LogoListSliceButtonTitleDescriptionItem, LogoListSliceButtonTitleDescription, LogoListSliceVariation, LogoListSlice, MetricsSliceDefaultPrimary, MetricsSliceDefaultItem, MetricsSliceDefault, MetricsSliceNoBackgroundPrimary, MetricsSliceNoBackgroundItem, MetricsSliceNoBackground, MetricsSliceVariation, MetricsSlice, ProjectsSliceDefaultPrimary, ProjectsSliceDefault, ProjectsSliceVariation, ProjectsSlice, ServicesSliceDefaultPrimary, ServicesSliceDefaultItem, ServicesSliceDefault, ServicesSliceNoIconsNoButtonsPrimary, ServicesSliceNoIconsNoButtons, ServicesSliceNoIconsPrimary, ServicesSliceNoIcons, ServicesSliceImageTextPrimary, ServicesSliceImageText, ServicesSliceVariation, ServicesSlice, StaffSliceDefaultPrimary, StaffSliceDefaultItem, StaffSliceDefault, StaffSliceVariation, StaffSlice };
+        export type { FootermenuDocumentData, FootermenuDocumentDataLinkgroupItem, FootermenuDocumentDataSocialmediagroupItem, FootermenuDocument, HomepageDocumentData, HomepageDocumentDataSlicesSlice, HomepageDocument, MenutopDocumentData, MenutopDocumentDataMenulinksItem, MenutopDocument, PageDocumentData, PageDocumentDataSlicesSlice, PageDocument, AllDocumentTypes, CardListSliceDefaultPrimary, CardListSliceDefaultItem, CardListSliceDefault, CardListSliceVariation, CardListSlice, ClientsSliceDefaultPrimary, ClientsSliceDefaultItem, ClientsSliceDefault, ClientsSliceVariation, ClientsSlice, ContactSliceDefaultPrimary, ContactSliceDefault, ContactSliceVariation, ContactSlice, HeroSliceDefaultPrimary, HeroSliceDefault, HeroSliceNoButtonNoDescriptionPrimary, HeroSliceNoButtonNoDescription, HeroSliceNoButtonPrimary, HeroSliceNoButton, HeroSliceVariation, HeroSlice, HtmlSliceDefaultPrimary, HtmlSliceDefault, HtmlSliceVariation, HtmlSlice, IdeasSliceDefaultPrimary, IdeasSliceDefault, IdeasSliceNoButtonNobgPrimary, IdeasSliceNoButtonNobg, IdeasSliceNoButtonPrimary, IdeasSliceNoButton, IdeasSliceStorePrimary, IdeasSliceStore, IdeasSliceVariation, IdeasSlice, LogoListSliceDefaultPrimary, LogoListSliceDefaultItem, LogoListSliceDefault, LogoListSliceOnlyLogosBgItem, LogoListSliceOnlyLogosBg, LogoListSliceButtonTitleDescriptionPrimary, LogoListSliceButtonTitleDescriptionItem, LogoListSliceButtonTitleDescription, LogoListSliceVariation, LogoListSlice, MetricsSliceDefaultPrimary, MetricsSliceDefaultItem, MetricsSliceDefault, MetricsSliceNoBackgroundPrimary, MetricsSliceNoBackgroundItem, MetricsSliceNoBackground, MetricsSliceVariation, MetricsSlice, ProjectsSliceDefaultPrimary, ProjectsSliceDefault, ProjectsSliceVariation, ProjectsSlice, ServicesSliceDefaultPrimary, ServicesSliceDefaultItem, ServicesSliceDefault, ServicesSliceNoIconsNoButtonsPrimary, ServicesSliceNoIconsNoButtons, ServicesSliceNoIconsPrimary, ServicesSliceNoIcons, ServicesSliceImageTextPrimary, ServicesSliceImageText, ServicesSliceVariation, ServicesSlice, StaffSliceDefaultPrimary, StaffSliceDefaultItem, StaffSliceDefault, StaffSliceVariation, StaffSlice };
     }
 }

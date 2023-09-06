@@ -37,8 +37,8 @@ const Footer = ({
   return (
     <FooterWrapper backgroundColor={"#363636"}>
       <FooterItemsContainer>
-        <FooterCopyright copyrightText="holacomunidad © 2023 , Inc. Todos los derechos reservados." />
-        <FooterList title={"Hola comunidad"} items={items} />
+        <FooterCopyright copyrightText="© 2023 , Inc. Todos los derechos reservados." />
+        <FooterList title={""} items={items} />
         <SocialLinks socialTitle={" "} />
       </FooterItemsContainer>
     </FooterWrapper>

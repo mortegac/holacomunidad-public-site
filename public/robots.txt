@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.miniswimmer.us
+Host: https://www.holacomunidad.cl
 
 # Sitemaps
-Sitemap: https://www.miniswimmer.us/sitemap.xml
+Sitemap: https://www.holacomunidad.cl/sitemap.xml

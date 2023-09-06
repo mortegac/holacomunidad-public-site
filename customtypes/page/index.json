@@ -37,28 +37,10 @@
             "ideas": {
               "type": "SharedSlice"
             },
-            "card_list": {
-              "type": "SharedSlice"
-            },
-            "logo_list": {
-              "type": "SharedSlice"
-            },
-            "metrics": {
-              "type": "SharedSlice"
-            },
-            "services": {
-              "type": "SharedSlice"
-            },
-            "projects": {
-              "type": "SharedSlice"
-            },
-            "clients": {
-              "type": "SharedSlice"
-            },
-            "staff": {
-              "type": "SharedSlice"
-            },
             "contact": {
+              "type": "SharedSlice"
+            },
+            "html": {
               "type": "SharedSlice"
             }
           }

@@ -4,6 +4,7 @@ import CardList from './CardList';
 import Comparative from './Comparative';
 import Contact from './Contact';
 import Hero from './Hero';
+import Html from './Html';
 import Ideas from './Ideas';
 import LogoList from './LogoList';
 import Metrics from './Metrics';
@@ -16,6 +17,7 @@ export {
 	Comparative,
 	Contact,
 	Hero,
+	Html,
 	Ideas,
 	LogoList,
 	Metrics,
@@ -29,6 +31,7 @@ export const components = {
 	clients: Comparative,
 	contact: Contact,
 	hero: Hero,
+	html: Html,
 	ideas: Ideas,
 	logo_list: LogoList,
 	metrics: Metrics,
