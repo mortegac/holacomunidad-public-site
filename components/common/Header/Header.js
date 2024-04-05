@@ -37,7 +37,7 @@ export const Header = ({
           <Link
             key={`top-nav-contactButton`}
             // href={calltoactionUri.url === "" ? `/${linkResolver(calltoactionUri)}` : calltoactionUri.uid}
-            href={"contact"}
+            href={"contacto"}
             passHref
             prefetch
           >

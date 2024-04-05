@@ -7,7 +7,7 @@ import { SliceFactory } from "../../../../common/Containers";
 import { PageContainer, ButtonContainer, SectionContainer, FormContainer } from "../default/defaultStyles";
 import { RichText } from "prismic-reactjs";
 
-init("PIMyrgWnw02fMs0zj");
+init("k0bLrD6DU91Onbv6a");
 
 const Base = slice => {
   const { title, subtitle, email, message, name } = slice.primary;
@@ -43,7 +43,7 @@ const Base = slice => {
       reply_to: data.email,
     };
 
-    emailjs.send("service_1ufc0ju", "template_vk47fc7", templateParams).then(
+    emailjs.send("service_7cxut87", "template_vkaoy7j", templateParams).then(
       function (response) {
         setIsSentEmail({
           sentEmail: true,
@@ -101,7 +101,7 @@ const Base = slice => {
               prefetch
             >
               <ButtonContainer fullwidth={true}>
-                {"Take me home"}
+                {"Volver al inicio"}
               </ButtonContainer>
             </Link>
           </SectionContainer>

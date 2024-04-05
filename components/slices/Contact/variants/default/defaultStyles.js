@@ -206,11 +206,12 @@ export const FormContainer = styled.form`
     transition: background 0.3s ease;
     height: 48px;
     width: 100%;
-    background:${(props) => props.theme.button.bgPrimary};
-    border: 1px solid ${(props) => props.theme.button.bgPrimary};
+    background:#F58634;
+    // background:${(props) => props.theme.button.bgPrimary};
+    border: 1px solid #F58634;
     color:${(props) => props.theme.colors.white};
     :hover {
-      background-color: ${(props) => props.theme.button.bgPrimaryOver};
+      background-color: #f3ab76;
       color: ${(props) => props.theme.colors.white};
     }
     
@@ -271,11 +272,11 @@ export const ButtonContainer = styled.button`
   transition: background 0.3s ease;
   height: ${(props) => props.theme.button.height};
   border-radius: ${(props) => props.theme.button.borderRadius};
-  background:${(props) => props.theme.button.bgPrimary};
-  border: 1px solid ${(props) => props.theme.button.bgPrimary};
+  background:#F58634;
+  border: 1px solid #F58634;
   color:${(props) => props.theme.colors.white};
   :hover {
-    background-color: ${(props) => props.theme.button.bgPrimaryOver};
+    background-color: #f3ab76;
     color: ${(props) => props.theme.colors.white};
   }
   padding:${(props) => props.theme.button.padding};
